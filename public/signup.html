@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset=utf-8>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="signup.css">
+  <title>Yodlr Registration Portal</title>
+</head>
+<body>
+  <h1>Yodlr Registration Portal</h1>
+  <form id="registration-form">
+    Email: <input id="email" type="email" name="email"></br>
+    Last Name: <input id="lastName" type="text" name="lastName"> </br>
+    First Name: <input id="firstName" type="text" name="firstName"> </br>
+    Status: <select id="state" name="state">
+      <option value="pending">Pending</option>
+      <option value="active">Active</option>
+    </select>
+    <input id="signup" type="submit" value="Submit">
+  </form>
+  <p>
+    <a href="/admin.html">Admin Page</a>
+  </p>
+</body>
+<footer>
+  <script src="signup.js"></script>
+</footer>
+</html>

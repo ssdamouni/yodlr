@@ -1,0 +1,30 @@
+html{
+    border: #355E3B 10px solid;
+    height: 100%;
+}
+body{
+    background-color: beige;
+    color: #355E3B;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    margin-top: 5px;
+}
+#registration-form{
+    border-radius: 5px;
+    margin-left: 30%;
+    background-color: #355E3B;
+    padding: 15px;
+    width: 40%;
+    color:white;
+    font-weight: bold;
+}
+a{
+    background-color: #355E3B;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+}

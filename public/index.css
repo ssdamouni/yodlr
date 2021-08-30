@@ -1,0 +1,26 @@
+html{
+    border: #355E3B 10px solid;
+    height: 100%;
+}
+body{
+    background-color: beige;
+    color: #355E3B;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: black;
+    text-decoration: none;
+    border-radius: 10%;
+    padding: 7px;
+    color: white;
+    font-weight: bold;
+}
+.links{
+    margin-top: 5px;
+    background-color: #355E3B;
+    border: darkgreen 5px solid;
+    width: 12%;
+    margin-left: 44%;
+    border-radius: 3px;
+}
